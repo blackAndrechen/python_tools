@@ -1,6 +1,8 @@
 ### tip
 
-使用此脚本需在有道注册，获取appid和appkey
+使用此脚本需在有道注册，获取appid和appkey，并添加到脚本的第7行第10行中，方可使用
+注册网址：http://ai.youdao.com/
+
 
 ### 参数：
 
