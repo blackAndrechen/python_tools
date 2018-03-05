@@ -1,3 +1,7 @@
+### tip
+
+使用此脚本需在有道注册，获取appid和appkey
+
 ### 参数：
 
 -v: 版本信息
@@ -14,3 +18,4 @@ yd.py -c 我是一个好男孩
 ##### 翻译英文
 
 yd.py -e i am a good boy
+
