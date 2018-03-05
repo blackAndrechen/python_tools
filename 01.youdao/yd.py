@@ -4,10 +4,10 @@ import argparse
 import requests
 
 __version__ = '0.0.1'
-url = 'http://openapi.youdao.com/api?q={}&from={}&to={}&appKey=0caa4581f3a73a48&salt=2&sign={}'
+url = 'http://openapi.youdao.com/api?q={}&from={}&to={}&appKey=app_id&salt=2&sign={}'
 
 def get_md5(txt):
-    txt = '0caa4581f3a73a48'+txt+str(2)+'5lGrTMQoR3yWUBBSKoPHEvU3ffDAK8tB'
+    txt = 'app_id'+txt+str(2)+'app_密匙'
     m = hashlib.md5()
     m.update(txt.encode("utf8"))
     md5 = m.hexdigest()
